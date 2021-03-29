@@ -1,0 +1,55 @@
+{
+    "Customer": {
+        "_id": 1,
+        "first_name": "Michael",
+        "last_name": "Jones",
+        "date_of_birth": "1975-01-25",
+        "user_name": "mjones",
+        "Invoice": [
+            {
+                "_id": 001,
+                "date_created": "2021-03-28",
+                "date_shipped": "2021-03-28",
+                "line_item": [
+                    {
+                        "_id": 002,
+                        "name": "Stapler",
+                        "price": 9.50,
+                        "quantity": 1
+                    },
+                    {
+                        "_id": 003,
+                        "name": "Hat",
+                        "price": 20.00,
+                        "quantity": 1
+                    }
+                ],
+                "subtotal": 29.50,
+                "tax": 5.00,
+                "total": 34.50
+            },
+            {
+                "_id": 002,
+                "date_created": "2021-03-28",
+                "date_shipped": "2021-03-28",
+                "line_item": [
+                    {
+                        "_id": 004,
+                        "name": "Cooler",
+                        "price": 100.00,
+                        "quantity": 1
+                    },
+                    {
+                        "_id": 005,
+                        "name": "Thermos",
+                        "price": 15.00,
+                        "quantity": 1
+                    }
+                ],
+                "subtotal": 115.00,
+                "tax": 10.00,
+                "total": 125.00
+            }
+        ]
+    }
+}

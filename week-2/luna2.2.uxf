@@ -1,0 +1,19 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>290</x><y>20</y><w>210</w><h>130</h></coordinates><panel_attributes>Invoice
+--
+_id
+date_created
+date_shipped
+subtotal
+tax
+total</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>10</x><y>30</y><w>210</w><h>110</h></coordinates><panel_attributes>Customer
+--
+_id
+first_name
+last_name
+date_of_birth
+user_name</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>570</x><y>20</y><w>210</w><h>130</h></coordinates><panel_attributes>Line Item
+--
+_id
+name
+price
+quantity</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>70</y><w>100</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;80;20</additional_attributes></element><element><id>Relation</id><coordinates><x>490</x><y>70</y><w>100</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;80;20</additional_attributes></element></diagram>
