@@ -1,0 +1,34 @@
+{
+    "student": {
+      "_id": 78840,
+      "first_name": "Ryan",
+      "last_name": "Luna",
+      "mi": "J",
+      "enroll": [
+        {
+          "_id": 1,
+          "grade": "B",
+          "class": {
+            "_id": 1234,
+            "name": "Calculus"
+          }
+        },
+        {
+          "_id": 2,
+          "grade": "C",
+          "class": {
+            "_id": 4321,
+            "name": "Economics"
+          }
+        },
+        {
+          "_id": 3,
+          "grade": "A",
+          "class": {
+            "_id": 4567,
+            "name": "Statistics"
+          }
+        }
+      ]
+    }
+  }
