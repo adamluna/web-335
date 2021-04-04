@@ -1,0 +1,50 @@
+{
+  "publisher_name": "Great Books",
+  "publisher_code": "321654",
+  "publisher_address": {
+    "street": "123 Great Street",
+    "city": "San Diego",
+    "state": "California",
+    "zip": 10164
+  },
+  "books": [
+    {
+      "book_isbn": 987654,
+      "book_name": "Great Books Vol. 1",
+      "book_price": 20.0,
+      "authors": [
+        {
+          "author_first_name": "Rick",
+          "author_last_name": "Bowness",
+          "author_phone": "111-222-3333",
+          "author_email": "rbowness@greatbooks.com"
+        },
+        {
+          "author_first_name": "Lindy",
+          "author_last_name": "Ruff",
+          "author_phone": "112-223-3334",
+          "author_email": "lruff@greatbooks.com"
+        }
+      ]
+    },
+    {
+      "book_isbn": 789456,
+      "book_name": "Great Books Vol. 2",
+      "book_price": 15.75,
+      "authors": [
+        {
+          "author_first_name": "Mike",
+          "author_last_name": "McCarthy",
+          "author_phone": "999-888-7777",
+          "author_email": "mmcarthy@greatbooks.com"
+        },
+        {
+          "author_first_name": "Jason",
+          "author_last_name": "Garrett",
+          "author_phone": "998-887-7776",
+          "author_email": "jgarrett@greatbooks.com"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+    "user": {
+      "_id": 123456,
+      "name": "tduncan",
+      "first_name": "Tim",
+      "last_name": "Duncan",
+      "roles": [
+        {
+          "title": "administrator",
+          "permissions": [
+            {"admin": true},
+            {"read": true},
+            {"write": true}
+          ]
+        },
+        {
+          "title": "analyst",
+          "permissions": [
+            {"admin": true},
+            {"read": true},
+            {"write": true}
+          ]
+        },
+        {
+          "title": "developer",
+          "permissions": [
+            {"admin": false}
+          ]
+        }
+      ]
+    }
+  }
